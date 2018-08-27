@@ -2,7 +2,7 @@ using System;
 
 namespace PrimesLib
 {
-    public class PrimeFunctions
+    public static class PrimeFunctions
     {
         public static bool IsPrime(int n)
         {
