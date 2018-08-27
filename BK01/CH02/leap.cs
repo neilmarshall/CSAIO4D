@@ -9,8 +9,7 @@ class Program {
         Console.Write("Please enter a year: ");
 
         string input = Console.ReadLine();
-        int year;
-        if (!Int32.TryParse(input, out year)) {
+        if (!Int32.TryParse(input, out int year)) {
             Console.Error.WriteLine("Not an integer!");
             Environment.Exit(1);
         }
